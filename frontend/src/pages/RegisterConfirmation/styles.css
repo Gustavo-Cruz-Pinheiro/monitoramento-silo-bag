@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+
+.confimartion-content {
+  padding: 5%;
+}
+
+.logoImg {
+  padding-bottom: 20px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.instruction {
+  padding-bottom: 20px;
+  font: 400 14px Roboto, sans-serif;
+  color: rgb(88, 86, 86);
+  font-size: 12pt;
+}
+
+.returnButton {
+  border: none;
+  cursor: pointer;
+}
+
+.returnText {
+  font-size: 16pt
+}

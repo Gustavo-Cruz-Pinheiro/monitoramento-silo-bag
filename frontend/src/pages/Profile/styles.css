@@ -1,0 +1,83 @@
+.profile-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container .content {
+  width: 100%;
+  padding: 96px;
+  background: #ffffff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-container .content section {
+  width: 100%;
+  max-width: 380px;
+  line-height: 90px;
+}
+
+.profile-container .content section h1 {
+  margin: 64px 0 32px;
+  font-size: 35px;
+}
+
+.profile-container .content section p {
+  font-size: 20px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.profile-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.profile-container .content form input {
+  margin-top: 8px;
+}
+
+.linha-vertical {
+  height: 280px;
+  border-left: 1.5px solid rgba(44, 44, 44);
+  opacity: 0.5;
+}
+
+.button {
+  width: 100%;
+}
+
+.formulario {
+  width: 100%;
+  display: flex;
+}
+
+.formulario button+button {
+  margin-left: 8px;
+  background-color: rgb(219, 11, 11);
+}
+
+.toast {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toast .confirm {
+  color: black;
+  width: 20%;
+  margin-top: 6px;
+  font-size: 15px;
+  align-self: center;
+  cursor: pointer;
+}

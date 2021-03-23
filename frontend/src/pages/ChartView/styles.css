@@ -1,0 +1,48 @@
+.container-graph {
+  background-color: #f0f0f5;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+  display: flex;
+}
+
+.content-graph {
+  height: 97%;
+  width: 95%;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  overflow: auto;
+  border: #747474 solid 1px;
+}
+
+.close {
+  width: 100%;
+  padding-top: 15px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.close-icon:hover {
+  transition: color 0.2s;
+  color: rgb(150, 146, 146);
+}
+
+.graph {
+  height: 100%;
+  width: 105%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 5%;
+  display: inline-block;
+}
